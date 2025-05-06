@@ -92,7 +92,7 @@ Json format:
 ## 👤 Author
 
 Mohamed Afrid Askar Ali  
-[GitHub](https://github.com/YOURUSERNAME) | [LinkedIn](https://linkedin.com/in/YOURUSERNAME)
+[GitHub](https://github.com/mohamedafrid7087/notesapi) | [LinkedIn](https://www.linkedin.com/in/mohamedafrid/)
 
 ## 🛣️ Possible Next Steps
 
