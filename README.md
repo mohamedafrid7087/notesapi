@@ -73,5 +73,4 @@ Mohamed Afrid Askar Ali
 
 ## 🌐 Live Demo
 
-Deployed at: [https://your-railway-app-url.up.railway.app/notes](https://your-railway-app-url.up.railway.app/notes)  
-*(Replace with your actual Railway link)*
+Deployed at: [https://your-railway-app-url.up.railway.app/notes](notesapi-production-713f.up.railway.app/notes)  
