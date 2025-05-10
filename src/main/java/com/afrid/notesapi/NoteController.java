@@ -34,6 +34,8 @@ public class NoteController {
         return noteRepository.findById(id);
     }
 
+
+
     // Update note by ID
     @PutMapping("/{id}")
     public Note updateNote(@PathVariable Long id, @RequestBody @Valid Note noteDetails) {
