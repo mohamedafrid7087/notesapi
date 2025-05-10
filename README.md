@@ -3,6 +3,8 @@
 A robust RESTful API for secure note management, built with Java 17, Spring Boot, and an in-memory H2 database.  
 This project demonstrates key backend development skills: CRUD operations, validation, persistence, and API testing.
 
+---
+
 ## 🚀 Features
 
 - Create, Read, Update, and Delete notes via RESTful endpoints
@@ -10,22 +12,21 @@ This project demonstrates key backend development skills: CRUD operations, valid
 - Data validation: Title and content cannot be blank
 - Proper error handling for invalid data or missing notes
 
+---
+
 ## ⚙️ How to Run
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/notesapi.git
+   git clone https://github.com/mohamedafrid7087/notesapi.git
    cd notesapi
-   ./mvnw spring-boot:run // start the application 
-   
-or directly run
-```sh
-    NotesapiApplication.java
 
 
 ---
 
-## 5️⃣ **Document Your API Endpoints**
+## 2. **Add API Endpoints Table Section**
+
+Add below the "How to Run" section:
 
 ```markdown
 ## 🛠️ API Endpoints
@@ -40,45 +41,20 @@ or directly run
 
 ### Example: Create a Note
 
-**Request:**
+Request:
 ```json
 POST /notes
 {
   "title": "Grocery List",
   "content": "Eggs, Milk, Bread"
 }
-Response:
-{
-  "id": 1,
-  "title": "Grocery List",
-  "content": "Eggs, Milk, Bread",
-  "createdAt": "2024-06-11T14:10:00.123"
-}
+
 
 ---
 
-## 6️⃣ **Add Validation and Error Examples**
+## 4. **Add These Final Sections**
 
-```markdown
-## ♻️ Validation & Error Responses
-
-- Sending blank title/content:
-  ```json
-  {
-    "title": "Title is required"
-  }
-
-Trying to update or delete a non-existent note:
-
-Json format:
-
-{
-  "error": "Note not found"
-}
-
----
-
-## 7️⃣ **Tech Stack, Author & Further Improvements**
+**Tech Stack, Author, and Live Demo link (if deployed):**
 
 ```markdown
 ## 🧰 Tech Stack
@@ -92,11 +68,10 @@ Json format:
 ## 👤 Author
 
 Mohamed Afrid Askar Ali  
-[GitHub](https://github.com/mohamedafrid7087/notesapi) | [LinkedIn](https://www.linkedin.com/in/mohamedafrid/)
+[GitHub](https://github.com/mohamedafrid7087/notesapi)  
+[LinkedIn](https://www.linkedin.com/in/mohamedafrid/)
 
-## 🛣️ Possible Next Steps
+## 🌐 Live Demo
 
-- Add `updatedAt` timestamp for edits
-- Search/filter notes
-- Connect to a frontend (React or HTML/JS)
-- Deploy API online (Render, Railway)
+Deployed at: [https://your-railway-app-url.up.railway.app/notes](https://your-railway-app-url.up.railway.app/notes)  
+*(Replace with your actual Railway link)*
